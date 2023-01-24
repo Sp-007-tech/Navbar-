@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar !</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script>
+        function togglebar(){
+            document.getElementById('sidemenu').classList.toggle('active');
+        }
+    </script>
+</head>
+<body bgcolor="#e57373">
+<div id="sidemenu">
+    <div class="toggle-menu" onclick="togglebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Contact</li>
+    </ul>
+</div>    
+
+<div class="content">
+    <h1>HTML_CSS_JAVASCRIPT</h1>
+</div>
+
+</body>
+</html>
